@@ -58,3 +58,61 @@ mvn -version
 ```bash
 mvn compile
 ```
+Compiles the Java source code.
+
+### Run Tests
+
+```bash
+mvn test
+```
+
+Executes unit tests located in:
+
+```text
+src/test/java
+```
+
+### Package the Application
+
+```bash
+mvn package
+```
+
+Builds the project and creates a JAR file in the target/ directory.
+
+### Clean Build Artifacts
+
+```bash
+mvn clean
+```
+
+Removes previously compiled files and build artifacts.
+
+### Full Build
+
+```bash
+mvn clean install
+```
+
+Performs a full clean build and installs the artifact into the local Maven repository.
+
+## What I Am Learning
+
+This repository is part of a personal learning process focused on:
+
+* Java development workflows
+* Build automation
+* Dependency management
+* Software engineering practices
+* Reproducible builds
+* Java project organization
+
+## References
+
+* [Apache Maven Official Site](https://maven.apache.org/?utm_source=chatgpt.com)
+* [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html?utm_source=chatgpt.com)
+* [GitHub Actions – Java with Maven](https://docs.github.com/en/actions/tutorials/build-and-test-code/java-with-maven?utm_source=chatgpt.com)
+
+## License
+
+This project is for educational and learning purposes.
