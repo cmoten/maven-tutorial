@@ -54,6 +54,12 @@ mvn -version
 
 ## Common Maven Commands
 
+### Validate the Project
+```bash 
+mvn validate
+```
+Ensure the project is correct and has all the proper information.
+
 ### Compile the Project
 ```bash
 mvn compile
