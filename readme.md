@@ -7,3 +7,30 @@ The project is intended as a hands-on learning environment for understanding how
 ### Repository
 
 [maven-tutorial GitHub Repository](https://github.com/cmoten/maven-tutorial)￼
+
+## Objectives
+
+This project is being used to learn:
+
+* Maven project structure
+* The purpose of pom.xml
+* Dependency management
+* Maven build lifecycles
+* Maven plugins
+* Unit testing with JUnit
+* Packaging Java applications into JAR files
+* Running Maven commands from the command line
+* IDE integration with Maven
+
+## Project Structure
+
+Typical Maven directory layout:
+maven-tutorial/
+├── pom.xml
+└── src/
+    ├── main/
+    │   └── java/
+    │       └── ...
+    └── test/
+        └── java/
+            └── ...
