@@ -25,6 +25,7 @@ This project is being used to learn:
 ## Project Structure
 
 Typical Maven directory layout:
+```text
 maven-tutorial/
 ├── pom.xml
 └── src/
@@ -34,3 +35,4 @@ maven-tutorial/
     └── test/
         └── java/
             └── ...
+```
