@@ -36,3 +36,25 @@ maven-tutorial/
         └── java/
             └── ...
 ```
+
+Maven follows a standard directory convention which helps ensure consistency across Java projects.
+
+## Prerequisites
+
+Before running this project, install:
+
+* Java JDK 21 (or compatible version)
+* Apache Maven
+
+Verify installations:
+```bash
+java -version
+mvn -version
+```
+
+## Common Maven Commands
+
+### Compile the Project
+```bash
+mvn compile
+```
