@@ -1,4 +1,4 @@
-package com.jetbrains.marco;
+package com.jetbrains.cardy;
 
 import com.mpatric.mp3agic.*;
 
